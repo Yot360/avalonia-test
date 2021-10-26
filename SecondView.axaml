@@ -1,0 +1,10 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="RoutingExample.SecondView">
+    
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Hi, I'm the second view!"></TextBlock>
+        <TextBlock Text="{Binding UrlPathSegment}"></TextBlock>
+    </StackPanel>
+    
+</UserControl>
